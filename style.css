@@ -36,3 +36,31 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
 }
+
+/* style.css (Thêm vào bên dưới) */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.project-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  background-color: var(--accent);
+  color: #fff; /* Tương phản vượt tiêu chuẩn WCAG 2.2 AA */
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
