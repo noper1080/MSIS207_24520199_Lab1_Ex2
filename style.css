@@ -64,3 +64,11 @@ body {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
 }
+
+body.dark-theme {
+  --bg-primary: #0f172a;
+  --text-primary: #f8fafc;
+  --accent: #38bdf8;
+  --card-bg: #1e293b;
+  --border-color: #334155;
+}
